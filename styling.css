@@ -1,0 +1,111 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+}
+h1{
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 12px;
+}
+p{
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+    margin: 0;
+}
+span{
+    padding-left: 5px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+hr{
+    margin: 0;
+    border: 1px solid hsl(0, 0%, 59%);
+    opacity: 0.2;
+}
+/* Classes */
+.background{
+    display: flex;
+}
+.left{
+    height: 650px;
+    width: 50%;
+}
+.limg{
+    position: relative;
+    bottom: 300px;
+    margin-bottom: 300px;
+    height: 100%;
+    width: 100%;
+}
+.right{
+    height: 650px;
+    width: 50%;
+}
+.rimg{
+    position: relative;
+    top: 400px;
+    height: 100%;
+    width: 100%;
+}
+.whole{
+    position: absolute;
+    left: 500px;
+    top: 10px;
+    background-color: white;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    width: 28%;
+    height: 400px;
+    margin: 150px auto;
+}
+.top{
+    height: 230px;
+}
+.bp{
+    width: 100%;
+}
+.manish{
+    position: relative;
+    left: 140px;
+    bottom: 55px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.mid{
+    text-align: center;
+}
+.name{
+    margin: 0;
+}
+.desc{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+.followers{
+    text-align: center;
+    padding-left: 20px;
+}
+.likes{
+    text-align: center;
+    padding-right: 5px;
+}
+.bitches{
+    text-align: center;
+    padding-right: 30px;
+}
+.lparts{
+    letter-spacing: 1px;
+}
